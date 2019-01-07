@@ -1,6 +1,6 @@
 from graphics import *
 import random
-numberOfBombs = 9
+numberOfBombs = 10
 width = 400
 height = 400
 rows = 9
@@ -324,6 +324,6 @@ def main():
 		p = Point(x, y)
 		winTextBox = Text(p, "CONGRATS: YOU WIN!")
 		winTextBox.draw(newWin)
-		win.getMouse()
+		newWin.getMouse()
 
 main()
